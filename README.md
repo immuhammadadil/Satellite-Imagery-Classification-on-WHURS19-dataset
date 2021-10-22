@@ -1,0 +1,1 @@
+# Satellite-Imagery-Classification-on-WHURS19-dataset
