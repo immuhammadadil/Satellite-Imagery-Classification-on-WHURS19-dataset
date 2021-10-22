@@ -18,4 +18,4 @@ We have used Feature-Extraction method of transfer learning. EffecientNet is use
 We have achieved the validation accuracy of 93% afer just 20 epochs.
 
 **Acknowledgement**
-A Special thanks to Mr. Daniel Bourke.
+A Special thanks to my mentor, Mr. Daniel Bourke.
