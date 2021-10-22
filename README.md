@@ -11,5 +11,8 @@ Dataset Link: https://drive.google.com/drive/folders/16a9HRnhd2EcM_4CnCFpQL1xCJF
 
 Dataset is divided into training and validation data. There are almost 10 validation samples of each class.
 
+**Methodology**
+We have used Feature-Extraction method of transfer learning. EffecientNet is used as a base model. At the start of the model, we have added augmentation as a model lock before feature extraction. 5 differnent types of augmentations are applied i.e. flip, rotation, zoom, height and width. After the augmentation block, features are extracted using EffecientNet. At last, global average pooling and customized dense layers are applied. 
+
 **Resuts**
 We have achieved the validation accuracy of 93% afer just 20 epochs.
